@@ -17,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(100, 64, 200, 200)];
+    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(100, 64, 180, 180)];
+    view.layer.cornerRadius = 100;
+    view.layer.masksToBounds = YES;
     [self.view addSubview:view];
     view.backgroundColor = [UIColor flatRedColor];
 }

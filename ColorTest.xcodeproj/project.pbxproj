@@ -504,7 +504,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 268488M67M;
+				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = ColorTest/Info.plist;
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liyu.com.ColorTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,7 +519,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 268488M67M;
+				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = ColorTest/Info.plist;
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liyu.com.ColorTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -593,6 +597,7 @@
 				60A7C0E81EF7D9C6002A72FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60A7C0E91EF7D9C6002A72FE /* Build configuration list for PBXNativeTarget "ColorTestTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +606,7 @@
 				60A7C0EB1EF7D9C6002A72FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60A7C0EC1EF7D9C6002A72FE /* Build configuration list for PBXNativeTarget "ColorTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +615,7 @@
 				60A7C0EE1EF7D9C6002A72FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
