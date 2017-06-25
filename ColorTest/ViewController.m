@@ -17,11 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(100, 64, 180, 180)];
-    view.layer.cornerRadius = 100;
-    view.layer.masksToBounds = YES;
-    [self.view addSubview:view];
-    view.backgroundColor = [UIColor flatRedColor];
+//    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(100, 64, 180, 180)];
+//    view.layer.cornerRadius = 100;
+//    view.layer.masksToBounds = YES;
+//    [self.view addSubview:view];
+//    view.backgroundColor = [UIColor flatRedColor];
+}
+
+
+- (IBAction)goNext:(id)sender {
+    NSString *nameStr = self.name.text;
+    NSString *urlString = [NSString stringWithFormat:@"urlTest://%@",nameStr];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
+    NSLog(@"%@",nameStr);;
 }
 
 

@@ -2,13 +2,19 @@ PODS:
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
+  - iVersion (1.11.5)
+  - MBProgressHUD (1.0.0)
 
 DEPENDENCIES:
   - ChameleonFramework
+  - iVersion
+  - MBProgressHUD
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  iVersion: 3a93a89259eb3b52b0a8ba52c46a0027fa6b4d30
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
 
-PODFILE CHECKSUM: ad58fbe26c3ff898cc70653b7b335cd2d8fc1076
+PODFILE CHECKSUM: c207043a6475e4460fd26196b34b2f2013e108b4
 
 COCOAPODS: 1.2.1
